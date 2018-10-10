@@ -1,16 +1,27 @@
-#home {
-    background: url(../img/black-and-white-computer.jpg) no-repeat 50% 50%;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
-    display: block;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 600px;
-    color: #fff;
+.navbar {
+    background-color: lightgray;
+}
+
+body {
+    background-color: lightblue;
+}
+
+
+@media (min-width: 768px) {
+    #home {
+        background: url(../img/black-and-white-computer.jpg) no-repeat 50% 50%;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        display: block;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 600px;
+        color: #fff;
+    }
 }
 
 .pic_center {
@@ -55,6 +66,10 @@
     font-size: 4em;
 }
 
+.fa-html5 {
+    color: blue;
+}
+
 .fa-stack-2x {
     font-size: 2em;
 }
@@ -76,22 +91,6 @@
 .text-primary {
     color: #fed136;
 }
-.text-primary {
-    color: #337ab7;
-}
-
-@media (min-width: 768px)
-.navbar-default .navbar-brand {
-    font-size: 2em;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .3s;
-}
-
-.navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
-}
 
 footer ul.social-buttons {
     margin-bottom: 0;
@@ -107,27 +106,47 @@ footer ul.quicklinks {
 
 #bio {
     background-color: darkgray;
-    padding-top: 70px;
-    padding-bottom: 75px;
+}
+@media (min-width:768px) {
+    #bio {
+        padding-top: 70px;
+        padding-bottom: 75px;
+    }
+
+    #skills {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    #portfolio {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    #experience {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    .LI-profile-badge {
+        margin-bottom: 25px;
+    }
+
+    #contact {
+        padding-bottom: 25px;
+    }
 }
 
-#skills {
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
-#portfolio {
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
-#experience {
-    padding-top: 75px;
-    padding-bottom: 75px;
+.navbar .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
 }
 
-.LI-profile-badge {
-    margin-bottom: 25px;
+.navbar .navbar-brand {
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: darkcyan;
 }
 
-#contact {
-    padding-bottom: 25px;
-}
+
